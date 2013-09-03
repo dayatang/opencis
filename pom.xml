@@ -16,18 +16,18 @@
 	</organization>
 	<developers>
 		<developer>
-			<id>yyang</id>
-			<name>Yu Yang</name>
-			<email>cnyangyu@hotmail.com</email>
+			<id>cchen</id>
+			<name>Cao Chen</name>
+			<email>chencao0524@gmail.com</email>
 			<roles>
 				<role>administrator</role>
 				<role>developer</role>
 			</roles>
 		</developer>
 		<developer>
-			<id>cchen</id>
-			<name>Cao Chen</name>
-			<email>chencao0524@gmail.com</email>
+			<id>yyang</id>
+			<name>Yu Yang</name>
+			<email>gdyangyu@gmail.com</email>
 			<roles>
 				<role>administrator</role>
 				<role>developer</role>
