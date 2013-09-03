@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<messages>
+		<message>
+			<start-date>2010-12-20</start-date>
+			<end-date>2010-12-20</end-date>
+			<info>
+				Hi！欢迎加入Y!国，看看有什么讯息吧！
+			</info>
+		</message>
+		<message>
+			<start-date>2010-12-21</start-date>
+			<end-date>2010-12-21</end-date>
+			<info>
+				刚起床却发现自己脸泛油光吗？要注意服装仪容呀！
+			</info>
+		</message>
+	</messages>
+</root>
+               

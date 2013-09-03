@@ -1,0 +1,9 @@
+<component-set>
+	<components>
+		<component>
+			<role>org.opencis.plexus.Cheese</role>
+			<role-hint>parmesan</role-hint>
+			<implementation>org.opencis.plexus.impl.ParmesanCheese</implementation>
+		</component>
+	</components>
+</component-set>

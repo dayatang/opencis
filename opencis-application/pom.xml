@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.opencis</groupId>
+		<artifactId>opencis-project</artifactId>
+		<version>0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>opencis-application</artifactId>
+	<packaging>jar</packaging>
+	<name>Open CIS Application Module</name>
+	<description>Open CIS Application module</description>
+
+	<scm>
+		<connection>scm:svn:http://www.dayatang.com/svn/opencis/trunk/opencis-application</connection>
+		<developerConnection>scm:svn:http://www.dayatang.com/svn/opencis/trunk/opencis-application</developerConnection>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.parent.groupId}</groupId>
+			<artifactId>opencis-template</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.parent.groupId}</groupId>
+			<artifactId>opencis-svn</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.parent.groupId}</groupId>
+			<artifactId>opencis-trac</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.parent.groupId}</groupId>
+			<artifactId>opencis-hudson</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>c3p0</groupId>
+			<artifactId>c3p0</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.dayatang.commons</groupId>
+			<artifactId>dayatang-commons-spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.dayatang.commons</groupId>
+			<artifactId>dayatang-commons-db</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.2.0.Final</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<properties>
+		<h3.hbm2ddl.skip>true</h3.hbm2ddl.skip>
+	</properties>
+</project>

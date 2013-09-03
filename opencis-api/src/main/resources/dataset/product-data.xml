@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <CIS_CI_SERVERS CI_CATEGORY="1" ID="1" VERSION="1" NAME="hudson"/>
+  <CIS_PM_SERVERS PM_CATEGORY="1" ID="1" VERSION="1" NAME="trac"/>
+  <CIS_SCM_SERVERS SCM_CATEGORY="1" ID="1" VERSION="1" NAME="svn"/>
+</dataset>
